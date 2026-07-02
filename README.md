@@ -4,7 +4,7 @@ Classifying Images Based on Plant Species
 
 This project classifies images based on plant species. In a world where most of us thrive off homegrown or farm-made fruits and veggies, this project serves as a great way to detect what kind of plant someone is growing. This project has real-life applications, as it can be used in farms or at home if you often forget what you are planting in your garden.
 
-![This photo depicts results of the project](file:///C:/Users/Student/Pictures/Screenshots/Screenshot%202026-07-02%20155714.png)
+![This photo depicts results of the project](https://docs.google.com/document/d/1O-XkHR2yjcMeOMZH23IV4D6zHf7h2YBVq-v4aNaitYI/edit?tab=t.0)
 
 ## The Algorithm
 

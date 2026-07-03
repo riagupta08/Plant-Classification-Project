@@ -8,7 +8,7 @@ This project classifies images based on plant species. In a world where most of 
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+The algorithm of sorting plant species works by first being trained by being shown a series of images that are different types of plants. Through the resnet tool, AI learns certain features of specific plants, like a series of thorns that aloevera photos would have. After the AI knows which images are which, the AI is shown a new set of images, labels them a type of plant species from their pre-trained knowledge, and exports them to output folders. The options for classifying the images are determined by the categories defined in the labels.txt file in the project folder.
 
 ## Running this project
 
@@ -29,4 +29,4 @@ Exit the docker by typing **Ctrl + D**, then check to make sure that the model i
 
 8. Test 1 image. Copy the name of an image in the Category 1 folder of your test folder. Type imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/<Name of Category 1>/.jpg .jpg
 
-[View a video explanation here](video link)
+[Here is a video showing how my project works!](file:///C:/Users/Student/Downloads/NVIDIA%20Project%20(Jetson%20Orin%20Nano)%20(1).mp4)

@@ -12,9 +12,9 @@ The algorithm of sorting plant species works by first being trained by being sho
 
 ## Running this project
 
-1. Create your dataset by collecting photos. You can use a website like "Kaggle" to find some collections of photos. I used Kaggle to find my dataset, which already came with the categories and the test, train, and val folders. Here is the dataset I used: [https://www.kaggle.com/datasets/yudhaislamisulistya/plants-type-datasets](url).
+1. Create your dataset by collecting photos. You can use a website like "Kaggle" to find some collections of photos. I used Kaggle to find my dataset, which already came with the categories and the test, train, and val folders. Here is the dataset I used: [[https://www.kaggle.com/datasets/yudhaislamisulistya/plants-type-datasets](https://www.kaggle.com/datasets/yudhaislamisulistya/plants-type-datasets)](url).
 
-2. Go into your Linux Terminal/VS code. Download the dataset by typing **curl -L -o ~/Downloads/plants-type-datasets.zip\
+3. Go into your Linux Terminal/VS code. Download the dataset by typing **curl -L -o ~/Downloads/plants-type-datasets.zip\
   https://www.kaggle.com/api/v1/datasets/download/yudhaislamisulistya/plants-type-datasets**
 
 4. Go to the Docker container by first going to the jetson-inference folder. This can be done by doing **cd jetson-inference** - Then, type **./docker/run.sh**

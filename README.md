@@ -29,4 +29,4 @@ Exit the docker by typing **Ctrl + D**, then check to make sure that the model i
 
 8. Test 1 image. Copy the name of an image in the Category 1 folder of your test folder. Type imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/<Name of Category 1>/.jpg .jpg
 
-[Here is a video showing how my project works!]([file:///C:/Users/Student/Downloads/NVIDIA%20Project%20(Jetson%20Orin%20Nano)%20(1).mp4](url))
+[Here is a video showing how my project works!](https://youtu.be/mGHIOueDBuM)
